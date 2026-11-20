@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f7f8">
+  <meta name="description" content="Tinotenda Saira — biomedicine graduate and MBA candidate combining clinical research training with healthcare operations and business skills.">
+  <title>Tinotenda Saira | Biomedicine & Healthcare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{color-scheme:light;--bg:#f4f7f8;--surface:#fff;--fg:#10222c;--muted:#52646e;--line:#d3dee2;--accent:#0b6e6e;--accent-ink:#fff;--signal:#b4531a;--soft:#e3f0f0;--shadow:0 18px 55px rgba(16,34,44,.08);--display:'Space Grotesk',sans-serif;--body:'DM Sans',sans-serif;--mono:'IBM Plex Mono',monospace;scroll-behavior:smooth;scroll-padding-top:96px}
+    :root[data-theme="dark"]{color-scheme:dark;--bg:#0d1a21;--surface:#13252e;--fg:#e6eff2;--muted:#9db0b8;--line:#244150;--accent:#4fc3be;--accent-ink:#06191c;--signal:#f0a06a;--soft:#14343a;--shadow:0 18px 55px rgba(0,0,0,.2)}
+    @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0d1a21;--surface:#13252e;--fg:#e6eff2;--muted:#9db0b8;--line:#244150;--accent:#4fc3be;--accent-ink:#06191c;--signal:#f0a06a;--soft:#14343a;--shadow:0 18px 55px rgba(0,0,0,.2)}}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 var(--body);padding-inline:max(20px,env(safe-area-inset-left)) max(20px,env(safe-area-inset-right));transition:background .25s,color .25s}a{color:var(--accent)}a:focus-visible,button:focus-visible{outline:3px solid var(--signal);outline-offset:4px}.wrap{width:min(1080px,100%);margin:auto}.mono,.eyebrow{font:500 12px/1.5 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+    .site-header{position:sticky;top:0;z-index:10;margin-inline:calc(max(20px,env(safe-area-inset-left))*-1) calc(max(20px,env(safe-area-inset-right))*-1);padding-inline:max(20px,env(safe-area-inset-left)) max(20px,env(safe-area-inset-right));background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(16px);border-bottom:1px solid color-mix(in srgb,var(--line) 75%,transparent)}nav{max-width:1080px;margin:auto;min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font:700 16px var(--display);color:var(--fg);text-decoration:none;white-space:nowrap}.nav-links{display:flex;align-items:center;gap:clamp(12px,2.1vw,25px)}.nav-links a{font:500 12px var(--mono);color:var(--muted);text-decoration:none;transition:color .2s}.nav-links a:hover,.nav-links a[aria-current="location"]{color:var(--accent)}.theme-toggle{border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--fg);width:38px;height:38px;cursor:pointer;font-size:17px;flex:none}
+    .hero{min-height:590px;display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(30px,6vw,80px);align-items:center;padding:75px 0 90px}.hero h1{font:600 clamp(42px,6.6vw,76px)/1.02 var(--display);letter-spacing:-.055em;margin:16px 0 22px;max-width:760px;text-wrap:balance}.hero h1 span{color:var(--accent)}.lead{font-size:18px;color:var(--muted);max-width:55ch;margin:0 0 24px}.tags,.chips{display:flex;gap:8px;flex-wrap:wrap;list-style:none;padding:0;margin:0}.tags{margin-bottom:28px}.tags li{padding:6px 11px;background:var(--surface);border:1px solid var(--line);border-radius:999px;font:12px var(--mono)}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 17px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);font:600 14px var(--body);text-decoration:none;transition:transform .2s,box-shadow .2s,background .2s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 22px color-mix(in srgb,var(--accent) 22%,transparent)}.btn.secondary{background:transparent;color:var(--accent)}
+    .figure{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow);overflow:hidden}.figure:before{content:"";position:absolute;inset:0 auto auto 0;width:100%;height:3px;background:linear-gradient(90deg,var(--accent),var(--signal),transparent)}.figure-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:16px}.figure-title{font:600 14px var(--display)}.status{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font:11px var(--mono)}.status:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--soft)}.figure svg{width:100%;height:auto;display:block}.figure figcaption{font:11px/1.6 var(--mono);color:var(--muted);margin-top:10px}.curve{stroke-dasharray:420;stroke-dashoffset:420;animation:draw 1.6s ease-out forwards}@keyframes draw{to{stroke-dashoffset:0}}
+    section{padding:78px 0;border-top:1px solid var(--line)}.section-head{margin-bottom:28px}.section-head h2{font:600 clamp(28px,4vw,40px)/1.15 var(--display);letter-spacing:-.035em;margin:8px 0 0}.about-grid,.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,6vw,76px);align-items:start}.about-copy p{margin:0 0 16px;max-width:64ch}.facts{margin:0;border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden}.facts div{display:grid;grid-template-columns:120px 1fr;gap:12px;padding:15px 17px;border-top:1px solid var(--line)}.facts div:first-child{border-top:0}.facts dt{font:11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.facts dd{margin:0;font-size:14px}
+    .timeline{display:grid}.role{display:grid;grid-template-columns:175px 1fr;gap:28px;padding:23px 0;border-top:1px solid var(--line)}.role:first-child{border-top:0;padding-top:0}.role h3,.card h3{font:600 20px/1.3 var(--display);margin:0 0 3px}.role .org{color:var(--muted);margin:0 0 10px}.role ul,.card ul{margin:0;padding-left:19px}.role li,.card li{margin:4px 0}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:22px;min-width:0;transition:transform .22s,border-color .22s,box-shadow .22s}.card:hover{transform:translateY(-5px);border-color:var(--accent);box-shadow:var(--shadow)}.card .mono{font-size:10px}.card h3{margin:12px 0 9px}.card p{color:var(--muted);font-size:14px;margin:0 0 12px}.card li{font-size:13px}.skillgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.skillbox{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px}.skillbox h3{font:500 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}.chips li{background:var(--soft);border-radius:6px;padding:5px 9px;font-size:13px}.certs{list-style:none;padding:0;margin:0;border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden}.certs li{display:flex;justify-content:space-between;gap:16px;padding:13px 17px;border-top:1px solid var(--line);font-size:14px}.certs li:first-child{border-top:0}.certs a{text-decoration:none}.certs a:hover{text-decoration:underline}.when{font:11px var(--mono);color:var(--muted);white-space:nowrap}.contact-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px}.contact-card p{color:var(--muted);margin-top:0}.contact-item{margin:17px 0}.contact-item .mono{display:block;margin-bottom:5px}.copy-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}code{font:13px var(--mono);background:var(--soft);padding:7px 10px;border-radius:6px;overflow-wrap:anywhere}.copy-btn{border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--accent);padding:7px 10px;font:500 12px var(--mono);cursor:pointer}footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:25px 0 38px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}footer a{text-decoration:none}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;min-height:unset;padding:60px 0 72px}.figure{max-width:560px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.nav-links{gap:12px}.nav-links a{font-size:10px}}
+    @media(max-width:600px){body{font-size:15px}.site-header{position:sticky}nav{min-height:62px;gap:10px}.brand{font-size:14px}.nav-links{overflow-x:auto;max-width:calc(100vw - 120px);gap:15px;scrollbar-width:none}.nav-links::-webkit-scrollbar{display:none}.nav-links a{white-space:nowrap}.theme-toggle{width:34px;height:34px}.hero{padding:48px 0 60px}.hero h1{font-size:clamp(40px,12vw,60px)}.lead{font-size:16px}.figure{padding:17px}section{padding:58px 0}.about-grid,.contact-grid,.skillgrid{grid-template-columns:1fr}.facts div{grid-template-columns:1fr;gap:3px}.role{grid-template-columns:1fr;gap:7px}.cards{grid-template-columns:1fr}.certs li{flex-direction:column;gap:3px}.when{white-space:normal}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header"><nav aria-label="Main navigation">
+      <a class="brand" href="#home">Tinotenda Saira</a>
+      <div class="nav-links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">☾</button>
+    </nav></header>
+    <main>
+      <header class="hero" id="home">
+        <div>
+          <div class="eyebrow">BSc Biomedicine · MBA candidate</div>
+          <h1>Science-trained, <span>business-minded,</span> headed for healthcare.</h1>
+          <p class="lead">I combine laboratory and clinical research training with business and finance skills. I’m interested in clinical research, healthcare operations, and work that makes a difference to patients.</p>
+          <ul class="tags"><li>Clinical research</li><li>ICH-GCP</li><li>Data management</li><li>Healthcare operations</li></ul>
+          <div class="actions"><a class="btn" href="#projects">Explore my work <span aria-hidden="true">↘</span></a><a class="btn secondary" href="https://www.linkedin.com/in/tinotenda-saira-2bb56621b/" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a></div>
+        </div>
+        <figure class="figure" aria-label="Illustrative real-time PCR amplification curve">
+          <div class="figure-head"><span class="figure-title">Real-time PCR amplification</span><span class="status">Research snapshot</span></div>
+          <svg viewBox="0 0 420 235" role="img" aria-labelledby="chart-title chart-desc">
+            <title id="chart-title">Illustrative real-time PCR amplification curves</title><desc id="chart-desc">Three amplification curves cross a threshold at different cycle counts.</desc>
+            <g stroke="var(--line)" stroke-width="1"><line x1="45" y1="184" x2="402" y2="184"/><line x1="45" y1="22" x2="45" y2="184"/><line x1="45" y1="133" x2="402" y2="133" stroke-dasharray="4 5"/></g>
+            <path class="curve" d="M45 181 C128 180 145 179 171 169 S202 79 238 44 S323 31 402 28" fill="none" stroke="var(--accent)" stroke-width="3"/>
+            <path class="curve" style="animation-delay:.15s" d="M45 182 C147 181 174 180 201 170 S233 82 268 49 S345 34 402 31" fill="none" stroke="var(--signal)" stroke-width="3"/>
+            <path class="curve" style="animation-delay:.3s" d="M45 183 C168 182 202 181 232 171 S264 86 301 53 S365 38 402 35" fill="none" stroke="var(--muted)" stroke-width="2.5"/>
+            <text x="52" y="126" fill="var(--muted)" font-size="11" font-family="IBM Plex Mono">threshold</text>
+            <text x="45" y="207" fill="var(--muted)" font-size="10" font-family="IBM Plex Mono">cycle 0</text><text x="402" y="207" fill="var(--muted)" font-size="10" text-anchor="end" font-family="IBM Plex Mono">cycle 40</text>
+            <text x="402" y="226" fill="var(--muted)" font-size="10" text-anchor="end" font-family="IBM Plex Mono">fluorescence vs cycle</text>
+          </svg>
+          <figcaption>Illustrative PCR curves — analysing amplification curves was the focus of my Thermo Fisher Genetic Sciences job simulation.</figcaption>
+        </figure>
+      </header>
+      <section id="about"><div class="section-head"><div class="eyebrow">About</div><h2>Where science meets operations</h2></div>
+        <div class="about-grid"><div class="about-copy">
+          <p>I graduated with a BSc in Biomedicine from Eduvos in April 2024 and am now pursuing an MBA. My training covers microbiology, molecular biology, pharmacology and clinical trials, alongside practical laboratory experience.</p>
+          <p>I hold ICH Good Clinical Practice certification and have studied research ethics. I care about accurate data, clear documentation and processes that protect patients and participants.</p>
+          <p>My goal is a career in healthcare that draws on both my science degree and MBA, growing from clinical research or operations into leadership.</p>
+        </div><dl class="facts">
+          <div><dt>Education</dt><dd>MBA (in progress)<br>BSc Biomedicine, Eduvos (2024)</dd></div>
+          <div><dt>Recognition</dt><dd>Golden Key International Honour Society invitation</dd></div>
+          <div><dt>Interests</dt><dd>Clinical research, healthcare management, operations</dd></div>
+          <div><dt>Languages</dt><dd>English, Shona (native); Afrikaans, isiZulu (professional); German, Dutch (limited)</dd></div>
+        </dl></div>
+      </section>
+      <section id="experience"><div class="section-head"><div class="eyebrow">Experience</div><h2>Work and practical training</h2></div>
+        <div class="timeline">
+          <article class="role"><div class="mono">Nov 2026 – Present<br>Remote</div><div><h3>Finance Outreach Intern</h3><p class="org">Springer Capital</p><ul><li>Conduct remote outreach to prospective clients, partners and investors, building a pipeline of qualified leads.</li><li>Research target organisations and track outreach and follow-ups.</li></ul></div></article>
+          <article class="role"><div class="mono">Nov 2025 – Jul 2026<br>Gauteng</div><div><h3>General Assistant (Frontline)</h3><p class="org">Pick n Pay</p><ul><li>Maintained accurate records under strict procedures and financial controls, resolving discrepancies.</li><li>Monitored product condition, pricing and expiry dates for quality assurance and compliance.</li></ul></div></article>
+          <article class="role"><div class="mono">2021 – 2023<br>Midrand</div><div><h3>BSc Biomedicine Laboratory Practicals</h3><p class="org">Eduvos</p><ul><li>Performed autoclaving, centrifugation, media preparation, microscopy, chromatography, ELISA and PCR.</li><li>Applied sterile technique, SOP adherence, quality control, documentation and safety practices.</li></ul></div></article>
+        </div>
+      </section>
+      <section id="projects"><div class="section-head"><div class="eyebrow">Projects & programmes</div><h2>Selected work</h2></div>
+        <div class="cards">
+          <article class="card"><div class="mono">Aug 2024 · Job simulation</div><h3>Thermo Fisher Genetic Sciences</h3><p>Analysed real-time PCR amplification curves and determined cycle thresholds for different genes.</p><ul><li>Assessed sensitivity and specificity for a hypothetical disease test.</li><li>Researched assays, positive percent agreement and limitations.</li></ul></article>
+          <article class="card"><div class="mono">Nov 2024 · Programme</div><h3>Nematech Science Graduate Mentorship</h3><p>Selected as a delegate for a programme on advanced scientific research, innovation and career development.</p><ul><li>Engaged with professionals from CSIR, NHLS, GDARD, SACNASP, DHET and DSI.</li><li>Developed scientific communication, teamwork and problem-solving skills.</li></ul></article>
+          <article class="card"><div class="mono">Jul 2025 · Course</div><h3>Introduction to Research Ethics</h3><p>TRREE training covering biomedical research ethics and participant protection.</p><ul><li>Built knowledge relevant to clinical trial conduct and compliance.</li></ul></article>
+        </div>
+      </section>
+      <section id="skills"><div class="section-head"><div class="eyebrow">Skills</div><h2>What I bring</h2></div>
+        <div class="skillgrid">
+          <div class="skillbox"><h3>Research & laboratory</h3><ul class="chips"><li>Clinical research</li><li>Clinical trials</li><li>ICH-GCP</li><li>PCR</li><li>ELISA</li><li>Chromatography</li><li>Microscopy</li><li>Good Laboratory Practice</li></ul></div>
+          <div class="skillbox"><h3>Data & quality</h3><ul class="chips"><li>Data management</li><li>Data analysis</li><li>Healthcare studies</li><li>Quality management</li><li>SOP compliance</li><li>Documentation</li></ul></div>
+          <div class="skillbox"><h3>Business & tools</h3><ul class="chips"><li>Finance outreach</li><li>Lead research</li><li>Microsoft Office</li><li>Excel</li><li>AI in spreadsheets</li><li>Prompt engineering</li></ul></div>
+          <div class="skillbox"><h3>People</h3><ul class="chips"><li>Stakeholder communication</li><li>Teamwork</li><li>Attention to detail</li><li>Problem-solving</li><li>Adaptability</li></ul></div>
+        </div>
+      </section>
+      <section id="certifications"><div class="section-head"><div class="eyebrow">Certifications</div><h2>Training and credentials</h2></div>
+        <ul class="certs">
+          <li><span><a href="https://www.linkedin.com/in/tinotenda-saira-2bb56621b/overlay/Certifications/563856527/treasury/?profileId=ACoAADdu_C8BXxyyiP7zN8GF_S8XUduFYgwDLSQ" target="_blank" rel="noopener noreferrer">AI-Powered Cybersecurity</a> · EY</span></li>
+          <li><span><a href="https://www.linkedin.com/in/tinotenda-saira-2bb56621b/overlay/Certifications/563056145/treasury/?profileId=ACoAADdu_C8BXxyyiP7zN8GF_S8XUduFYgwDLSQ" target="_blank" rel="noopener noreferrer">AI in Spreadsheets</a> · EY</span></li>
+          <li><span><a href="https://www.linkedin.com/in/tinotenda-saira-2bb56621b/overlay/Certifications/562902475/treasury/?profileId=ACoAADdu_C8BXxyyiP7zN8GF_S8XUduFYgwDLSQ" target="_blank" rel="noopener noreferrer">Prompt Engineering for Study and Learning</a></span></li>
+          <li><span><a href="https://www.linkedin.com/in/tinotenda-saira-2bb56621b/overlay/Certifications/562557306/treasury/?profileId=ACoAADdu_C8BXxyyiP7zN8GF_S8XUduFYgwDLSQ" target="_blank" rel="noopener noreferrer">AI for Productivity</a> · EY</span></li>
+          <li><span>Designing Big Data Healthcare Studies, Part One · LinkedIn Learning</span></li>
+          <li><span>ICH Good Clinical Practice (GCP)</span></li>
+          <li><span>Microsoft Office Suite Certification</span></li>
+          <li><span>TEFL Level 5 Diploma</span></li>
+          <li><span>Phlebotomist Training Course · Alison</span></li>
+        </ul>
+      </section>
+      <section id="contact"><div class="section-head"><div class="eyebrow">Contact</div><h2>Let’s talk</h2></div>
+        <div class="contact-grid"><div><p>I’m open to internships and entry-level roles in clinical research, healthcare management and operations. Get in touch by email or LinkedIn.</p><a class="btn" href="https://www.linkedin.com/in/tinotenda-saira-2bb56621b/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></div>
+          <div class="contact-card"><div class="contact-item"><span class="mono">Email</span><div class="copy-row"><a href="mailto:sairatinotenda@gmail.com"><code id="email-address">sairatinotenda@gmail.com</code></a><button class="copy-btn" id="copy-email" type="button">Copy</button></div></div><div class="contact-item"><span class="mono">Phone</span><a href="tel:+27611083294"><code>+27 61 108 3294</code></a></div></div>
+        </div>
+      </section>
+    </main>
+    <footer><span>© 2026 Tinotenda Saira</span><a href="#home">Back to top ↑</a></footer>
+  </div>
+  <script>
+    const root=document.documentElement,themeButton=document.getElementById('theme-toggle');
+    const savedTheme=localStorage.getItem('portfolio-theme');if(savedTheme)root.dataset.theme=savedTheme;
+    function updateThemeButton(){const dark=root.dataset.theme==='dark';themeButton.textContent=dark?'☀':'☾';themeButton.setAttribute('aria-label',dark?'Switch to light theme':'Switch to dark theme');document.querySelector('meta[name="theme-color"]').content=dark?'#0d1a21':'#f4f7f8'}
+    updateThemeButton();themeButton.addEventListener('click',()=>{root.dataset.theme=root.dataset.theme==='dark'?'light':'dark';localStorage.setItem('portfolio-theme',root.dataset.theme);updateThemeButton()});
+    document.getElementById('copy-email').addEventListener('click',async function(){const email=document.getElementById('email-address').textContent;try{await navigator.clipboard.writeText(email);this.textContent='Copied!'}catch(error){window.location.href='mailto:'+email;this.textContent='Opening email'}setTimeout(()=>this.textContent='Copy',1800)});
+    const sectionLinks=[...document.querySelectorAll('.nav-links a')];const sectionObserver=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){sectionLinks.forEach(link=>{if(link.getAttribute('href')==='#'+entry.target.id)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current')})}})},{rootMargin:'-25% 0px -65% 0px'});document.querySelectorAll('main section').forEach(section=>sectionObserver.observe(section));
+  </script>
+</body>
+</html>
